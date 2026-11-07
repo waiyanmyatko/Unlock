@@ -15,7 +15,7 @@ import kotlinx.coroutines.launch
 
 class AppsViewModel : ViewModel() {
 
-    enum class Filter { ALL, USER, SYSTEM, DISABLED, AUTOSTART, SAFE_DEBLOAT }
+    enum class Filter { ALL, USER, SYSTEM, DISABLED, AUTOSTART, SAFE_DEBLOAT, RESTORE }
     enum class Sort { NAME, SIZE, LAST_USED, INSTALL_DATE }
 
     data class UiState(
